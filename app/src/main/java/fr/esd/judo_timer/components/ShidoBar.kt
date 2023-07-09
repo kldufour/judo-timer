@@ -55,8 +55,8 @@ fun ShidoBar(
                         color = Color.Red,
                         radius = 20.dp.toPx(),
                         center = Offset(
-                            x = 80f,
-                            y = 123f
+                            x = 0f,
+                            y = 150f
                         )
                     )
                 }
@@ -67,7 +67,7 @@ fun ShidoBar(
                             color = Color.Yellow,
                             radius = 20.dp.toPx(),
                             center = Offset(
-                                x = 80f,
+                                x = 0f,
                                 y = y
                             )
                         )
