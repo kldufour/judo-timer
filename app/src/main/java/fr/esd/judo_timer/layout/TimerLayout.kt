@@ -22,20 +22,18 @@ fun TimerLayout(
         Column(Modifier.fillMaxSize()) {
             TopBar()
             JudokaCard(
-                name = "Judoka 1",
-                shido = "s",
+                text = "Judoka 1",
                 backgroundColor = Color.White,
                 textColor = Color.Black,
                 ipponOnclick = { ippon = it },
-                wazaArionclick = {wazaAri = it}
+                wazaAriOnclick = { wazaAri = it }
             )
             JudokaCard(
-                name = "Judoka 2",
-                shido = "s",
+                text = "Judoka 2",
                 backgroundColor = Color.Blue,
                 textColor = Color.White,
                 ipponOnclick = { ippon = it },
-                wazaArionclick = {wazaAri = it}
+                wazaAriOnclick = { wazaAri = it }
             )
             TimerCard(
                 timer = "1 : 00",
